@@ -1,18 +1,24 @@
-Homework Assignment Guidelines
+---
+applyTo: "assignments/**/*.md"
+---
+# Assignment Markdown Structure Guidelines
 
-These instructions apply specifically to homework assignments and coding exercises.
+All assignment markdown files should follow these guidelines:
 
-Assignment Structure
+## 1. Template Usage
+- Assignment markdown files must follow the structure in [`templates/assignment-template.md`](../../templates/assignment-template.md).
+- The assignment must be created as a `README.md` file
+- Do not remove or skip required sections from the template.
 
-Every assignment must include:
-1. Title: Clear, descriptive title
-2. Learning Objectives: Bullet points explaining what the student will learn
-3. Prerequisites: Required knowledge or tools
-4. Instructions: Step-by-step guide to complete the assignment
-5. Rubric: How the assignment will be graded
+## 2. Section Guidance
 
-Tone and Style
+The section headers should reflect the structure in the template, including the exact icon usage.
+- **Title**: Replace `[Assignment Title]` with a short, descriptive name (e.g., `Python Basics`, `Loops and Conditionals`, `Functions and Modules`).
+- **Objective**: Write 1-2 sentences summarizing what the student will learn or accomplish. Focus on the main skills or concepts.
+- **Tasks**: For each task:
+   - Use a specific, action-oriented task name
+   - In the Description, clearly state what the student must do.
+   - In Requirements, use bullet points to list the expected outcomes or features. Be specific and measurable
+   - Provide example input/output in code blocks if helpful.
 
-- Use encouraging, positive language
-- Break complex steps into smaller, manageable tasks
-- Provide hints for difficult sections, but don't give away the answer
+Do not include extra sections unless explicitly specified.
