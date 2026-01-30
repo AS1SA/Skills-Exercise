@@ -1,19 +1,26 @@
+# 🎮 Number Guessing Game
 
-# 🎮 Hangman Game Challenge
+## 🎯 Objective
+Learn how to use loops, conditionals, and random number generation in Python by building an interactive game.
 
-Build the classic word-guessing game using Python strings, loops, and user input.
+## 📝 Tasks
 
-## � What You'll Build
+### 1. Game Setup
+**Description:**
+Initialize the game by importing necessary modules and generating a random number.
 
-Create a Hangman game where players guess letters to reveal a hidden word before running out of attempts.
+**Requirements:**
+- Import the `random` module
+- Generate a random integer between 1 and 100
+- Print a welcome message to the player
 
-**Skills practiced:** String manipulation, loops, conditionals, random selection
+### 2. Game Logic
+**Description:**
+Create the main game loop that handles user input and feedback.
 
-## ✅ Must Have's
-
-Your game must:
-- Randomly select words from a predefined list
-- Accept letter guesses and show current progress (_ _ _ format)
-- Track incorrect guesses remaining
-- End when word is guessed or attempts exhausted
-- Display win/lose messages
+**Requirements:**
+- Use a `while` loop to keep the game running until the correct guess
+- Ask user for input and convert to integer
+- Provide "Too high" or "Too low" feedback
+- Track number of attempts
+- specific message when they win
