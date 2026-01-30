@@ -58,6 +58,13 @@
           "type": "csv"
         }
       ]
+    },
+    {
+      "id": "python-api",
+      "title": "Building REST APIs",
+      "description": "Learn how to build simple REST APIs using Python and FastAPI framework.",
+      "path": "assignments/python-api",
+      "dueDate": "2026-02-10"
     }
   ]
 }
